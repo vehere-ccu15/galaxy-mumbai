@@ -1,0 +1,24 @@
+# /etc/exports: the access control list for filesystems which may be exported
+#		to NFS clients.  See exports(5).
+#
+# Example for NFSv2 and NFSv3:
+# /srv/homes       hostname1(rw,sync,no_subtree_check) hostname2(ro,sync,no_subtree_check)
+#
+# Example for NFSv4:
+# /srv/nfs4        gss/krb5i(rw,sync,fsid=0,crossmnt,no_subtree_check)
+# /srv/nfs4/homes  gss/krb5i(rw,sync,no_subtree_check)
+#
+/var/lib/vehere/nfsbackup	192.168.30.20(rw,sync,all_squash,anongid=0)
+/var/lib/vehere/nfsbackup	192.168.30.21(rw,sync,all_squash,anongid=0)
+/var/lib/vehere/nfsbackup	192.168.30.22(rw,sync,all_squash,anongid=0)
+/var/lib/vehere/nfsbackup	192.168.30.23(rw,sync,all_squash,anongid=0)
+/var/lib/vehere/nfsbackup	192.168.30.24(rw,sync,all_squash,anongid=0)
+/var/lib/vehere/nfsbackup	192.168.30.25(rw,sync,all_squash,anongid=0)
+/var/lib/vehere/nfsbackup	192.168.30.26(rw,sync,all_squash,anongid=0)
+/var/lib/vehere/nfsbackup	192.168.30.27(rw,sync,all_squash,anongid=0)
+/var/lib/vehere/nfsbackup	192.168.30.28(rw,sync,all_squash,anongid=0)
+/var/lib/vehere/nfsbackup	192.168.30.29(rw,sync,all_squash,anongid=0)
+/var/lib/vehere/nfsbackup	192.168.30.30(rw,sync,all_squash,anongid=0)
+/var/lib/vehere/nfsbackup	192.168.30.31(rw,sync,all_squash,anongid=0)
+/var/lib/vehere/nfsbackup	192.168.30.10(rw,sync,all_squash,anongid=0)
+

@@ -1,0 +1,11 @@
+Filesystem                              Type      Size  Used Avail Use% Mounted on
+udev                                    devtmpfs  126G     0  126G   0% /dev
+tmpfs                                   tmpfs      26G   91M   26G   1% /run
+/dev/sda1                               ext4      425G   16G  387G   4% /
+tmpfs                                   tmpfs     126G     0  126G   0% /dev/shm
+tmpfs                                   tmpfs     5.0M     0  5.0M   0% /run/lock
+tmpfs                                   tmpfs     126G     0  126G   0% /sys/fs/cgroup
+/dev/md127                              xfs        49T  158G   49T   1% /var/lib/elasticsearch
+tmpfs                                   tmpfs      26G  4.0K   26G   1% /run/user/113
+tmpfs                                   tmpfs      26G     0   26G   0% /run/user/1000
+192.168.30.17:/var/lib/vehere/nfsbackup nfs4      6.6T  126G  6.5T   2% /mnt
